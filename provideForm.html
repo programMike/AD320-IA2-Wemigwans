@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mike Wemigwans AD 320 IA #2</title>
+		<script src="validateForm.js"></script>
+	</head>
+	<body>
+		<form action="echoFormData.php" method="get" onsubmit="return validateForm()" >
+  			- Name (*Required)<br>
+  			<input type="text" name="name" id="name">
+  			<label id="requireName"></label><br>
+  			
+        - Email (*Required)<br>
+  			<input type="text" name="email" id="email">
+  			<label id="requireEmail"></label><br>
+  			
+        - Phone Number<br>
+  			<input type="text" name="phone"><br>
+  			
+        - State of Residence<br>
+  			<input type="text" name="residence"><br>
+  			
+        <input type="submit" value="Submit"><br>
+		</form> 
+	</body>
+</html>
